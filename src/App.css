@@ -3,46 +3,4 @@ html,body{
     margin:0;
     font-family: 'Noto Sans KR';
 }
-.container{
-    width: 100vw;
-    height: 100vh;
-}
-.introSection{
-    background-color: tomato;
-}
-.introSection>.content{
-    position: relative;
-    font-size:18px;
-    left:50%; top:50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
-    
-}
-.introSection>.content>.title{
-    font-size: 44px;
-    font-weight: bold;
-}
-.introSection>.content>.subTitle{
-    font-size: 24px;
-}
 
-.aboutMe{
-    background-color: skyblue;
-    padding: 20px;
-}
-.aboutMe>.content{
-    position: relative;
-    font-size:18px;
-    left:50%; top:50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-.aboutMe>.content>.items{
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: space-between;
-    
-}
-.aboutMe>.content>.items>div{
-    padding: 10px;
-}
