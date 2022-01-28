@@ -1,11 +1,8 @@
 import styles from "./About.module.css"
 function About() {
-  return (
-    <section>
-      <div id={styles.contents}>
-        <
-      </div>
-    </section>
-  );
+    return (
+        <section id={styles.section}>
+        </section>
+    );
 };
 export default About;

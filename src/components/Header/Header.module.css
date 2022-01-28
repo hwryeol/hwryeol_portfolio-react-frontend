@@ -1,0 +1,38 @@
+@media (max-width:768px){
+    #navigation{
+        top:20px;
+        left:0%;
+        padding:0px;
+        width:100vw;
+    }
+}
+
+#navigation{
+    display: table;
+    vertical-align: middle;
+    position:fixed;
+    top:20px;
+    right:20px;
+    text-align: center;
+    justify-content: space-between;
+}
+#div:after{
+    display:block;/*a요소를 블록 요소라고 선언*/
+    content: '';
+    border-bottom: solid 2px #fff;
+    transform: scaleX(0);/*크기를 0으로 줌으로써 평상시엔 밑줄 없음*/
+    transition: transform 250ms ease-in-out; /*변형 방식*/
+}
+#div:hover:after{
+    transform: scaleX(1);
+}
+
+#div{
+    display: table-cell;
+    min-width: 25%;
+    font-size: 1.6rem;
+    text-align: center;
+    color:white;
+    padding:20px;
+}
+

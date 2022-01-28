@@ -1,29 +1,24 @@
-section{
+#section{
     height:100vh;
-    background-color: tomato;
-    
-}
-hr {
-    width: 3.25rem;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-    border: none;
-    border-top: 0.2rem solid #a33313;
-  }
-#title{
-    font-size:4rem;
-}
-#description{
-    font-size:2rem;
+    background-color: #ff5f45;
 }
 #contents{
-    width:  90%;
-    height: calc(100% - 14rem);
-    padding: 10rem 2rem 4rem;
-    text-align: center;
-    margin: auto;
-    color:white;
-    font-size:2rem;
+    width:100%;
+    position: absolute;
+    top:32%;
 }
-
+#title{
+    display: block;
+    width:100%;
+    color:white;
+    font-size: 9rem;
+    margin-bottom: 5px;
+    font-weight: 700;
+    text-align: center;
+}
+#description{
+    color:white;
+    font-size: 2rem;
+    text-align: center;
+}
 
