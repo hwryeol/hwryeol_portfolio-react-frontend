@@ -1,4 +1,58 @@
+
 #section{
     height: 100vh;
     background-color: #0798ec;
 }
+#contents{
+    position: relative;
+    top:30%;
+    left:30%;
+    height: 30vh;
+    width:40vw;
+    color:white;
+}
+#image{
+    position: absolute;
+    top:3.7rem;
+    left: 35rem;
+    width:20rem;
+    z-index: 10;
+    background-color: aqua;
+}
+#title{
+    position: relative;
+    width:12rem;
+    font-size: 2rem;
+    left:10rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+#table{
+    position: absolute;
+    font-size: 1.5rem;
+}
+#table th{
+    width: 10rem;
+    padding: 0.625rem;
+}
+#table td{
+    width: 20rem;
+    padding: 0.625rem;
+}
+@media (max-width:768px){
+    #image{
+        display: none;
+    }
+    #contents{
+    }
+}
+@media (max-width:340px){
+    #title{
+        width:20vw;
+    }
+    #contents{
+        width:70vw;
+        left:25vw;
+    }
+}
+
