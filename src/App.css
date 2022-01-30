@@ -3,6 +3,11 @@ html,body{
     margin:0;
     font-family: 'Noto Sans KR';
     font-size: 1.5vmin;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+    
 }
-::-webkit-scrollbar{
+section{
+    scroll-snap-align: start;
+    
 }

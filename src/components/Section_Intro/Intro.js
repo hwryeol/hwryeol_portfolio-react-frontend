@@ -1,7 +1,7 @@
 import styles from "./Intro.module.css"
 function Intro() {
   return (
-    <section id={styles.section}>
+    <section className={styles.section} id={Intro}>
       <div id={styles.contents}>
         <div id={styles.title}>
           포트폴리오
