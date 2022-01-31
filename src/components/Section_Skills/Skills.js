@@ -6,21 +6,20 @@ import react_logo from "../../assets/img/REACT_LOGO.png"
 function Skill() {
   return (
     <section id={styles.section}>
-    <table>
-      <tr>
-        <img className={styles.logo} src={css_logo}/>
-      </tr>
-      <tr>
-        <td><img className={styles.logo} src={html_logo}/></td>
-        <td>wrtwra</td>
-      </tr>
-      <tr>
-        <img className={styles.logo} src={js_logo}/>
-      </tr>
-      <tr>
-        <img className={styles.logo} src={react_logo}/>
-      </tr>
-    </table>
+    <div className={styles.container} id={styles.mainContainer}>
+      <div className={styles.title}>MAIN</div>
+      <img className={styles.item} src={html_logo}/>
+      <img className={styles.item} src={css_logo}/>
+      <img className={styles.item} src={js_logo}/>
+      <img className={styles.item} src={react_logo}/>
+    </div>
+    <div className={styles.container} id={styles.subContainer}>
+      <div className={styles.title}>SUB</div>
+      <img className={styles.item} src={html_logo}/>
+      <img className={styles.item} src={css_logo}/>
+      <img className={styles.item} src={js_logo}/>
+      <img className={styles.item} src={react_logo}/>
+    </div>
     </section>
   );
 };

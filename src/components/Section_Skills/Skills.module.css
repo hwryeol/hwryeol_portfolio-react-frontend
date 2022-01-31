@@ -2,6 +2,51 @@
     height:100vh;
     background-color: #fc6c7c;
 }
-.logo{
-    height:50px;
+.title{
+    position:absolute;
+    top:20%;
+    left:-35%;
+    font-size:6rem;
+    font-weight: bold;
+    color:white;
+}
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 40px;
+    width:fit-content;
+}
+#mainContainer{
+    left:35%;
+    top:25%;
+}
+#subContainer{
+    left:35%;
+    top:30%;
+}
+#subContainer > *{
+    transform: scale(0.71,0.71);
+}
+#mainContainer > img{
+    width:7rem;
+    height:7rem;
+    transition: all 0.2s ease;
+}
+#subContainer > img{
+    width:5rem;
+    height:5rem;
+    transition: all 0.2s ease;
+}
+.item{
+    padding: 3rem;
+}
+.container .item:hover{
+    transform: scale(1.5);
+}
+@media (max-width:768px){
+    .container{
+        flex-direction: column;
+    }
 }
