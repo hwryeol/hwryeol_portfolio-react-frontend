@@ -2,12 +2,12 @@
     height:100vh;
     background-color: #ff5f45;
 }
-#contents{
+.contents{
     width:100%;
     position: absolute;
     top:32%;
 }
-#title{
+.title{
     display: block;
     width:100%;
     color:white;
@@ -16,7 +16,7 @@
     font-weight: 700;
     text-align: center;
 }
-#description{
+.description{
     color:white;
     font-size: 2rem;
     text-align: center;

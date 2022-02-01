@@ -1,4 +1,4 @@
-#section{
+.section{
     height:100vh;
     background-color: #fc6c7c;
 }
@@ -26,9 +26,6 @@
     left:35%;
     top:30%;
 }
-#subContainer > *{
-    transform: scale(0.71,0.71);
-}
 #mainContainer > img{
     width:7rem;
     height:7rem;
@@ -42,11 +39,8 @@
 .item{
     padding: 3rem;
 }
-.container .item:hover{
+.container > .item:hover{
     transform: scale(1.5);
 }
 @media (max-width:768px){
-    .container{
-        flex-direction: column;
-    }
 }

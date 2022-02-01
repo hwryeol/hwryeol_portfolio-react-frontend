@@ -1,13 +1,9 @@
 
-
 #navigation{
-    display: table;
-    vertical-align: middle;
-    position:fixed;
-    top:20px;
+    display: flex;
+    position: fixed;
+    top:2%;
     right:25%;
-    text-align: center;
-    justify-content: space-between;
 }
 #div:after{
     display:block;/*a요소를 블록 요소라고 선언*/
@@ -21,12 +17,11 @@
 }
 
 #div{
-    display: table-cell;
-    min-width: 20%;
     font-size: 1rem;
     text-align: center;
     color:white;
-    padding:10px;
+    padding:1rem;
+    text-decoration: none;
 }
 
 @media (max-width:768px){

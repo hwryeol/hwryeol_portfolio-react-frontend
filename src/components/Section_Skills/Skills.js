@@ -5,7 +5,7 @@ import js_logo from "../../assets/img/JS_LOGO.png"
 import react_logo from "../../assets/img/REACT_LOGO.png"
 function Skill() {
   return (
-    <section id={styles.section}>
+    <section className={styles.section} id="skills_section">
     <div className={styles.container} id={styles.mainContainer}>
       <div className={styles.title}>MAIN</div>
       <img className={styles.item} src={html_logo}/>

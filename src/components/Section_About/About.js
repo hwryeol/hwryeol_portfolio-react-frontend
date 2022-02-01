@@ -3,11 +3,11 @@ import image from "../../assets/img/사진.jpg"
 
 function About() {
     return (
-        <section id={styles.section}>
-            <div id={styles.contents}>
-            <img id={styles.image} src={image}/>
-            <div id={styles.title}> ABOUT US</div>
-            <table id={styles.table}>
+        <section className={styles.section} id="about_section">
+            <div className={styles.contents}>
+            <img className={styles.image} src={image}/>
+            <div className={styles.title}> ABOUT US</div>
+            <table className={styles.table}>
                 <tr>
                     <th>이름</th>
                     <td>한원렬</td>

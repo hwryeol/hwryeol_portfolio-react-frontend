@@ -1,4 +1,25 @@
-#section{
+.section{
     height:100vh;
-    background-color: #fce26c;
+    background-color: #fec401;
+}
+
+.contents{
+    display:flex;
+    flex-direction: row;
+    position:relative;
+    top: 20%;
+    height:60%;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    scroll-snap-type: x mandatory;
+}
+.contents > div{ 
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+}
+.card>img{
+    position: relative;
+    top:10%;
+    left:30%;
+    height:300px;
 }

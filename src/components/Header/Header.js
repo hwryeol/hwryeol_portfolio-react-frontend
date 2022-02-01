@@ -4,10 +4,10 @@ function Header() {
     <>
     <header>
       <div id={styles.navigation}>
-          <a id={styles.div} href="#Intro">INTRO</a>
-          <a id={styles.div}>ABOUT</a>
-          <a id={styles.div}>SKILLS</a>
-          <a id={styles.div}>PROJECTs</a>
+          <a id={styles.div} href="#intro_section">INTRO</a>
+          <a id={styles.div} href="#about_section">ABOUT</a>
+          <a id={styles.div} href="#skills_section">SKILLS</a>
+          <a id={styles.div} href="#projects_section">PROJECTs</a>
       </div>
     </header>
     </>

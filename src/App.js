@@ -9,10 +9,10 @@ function App() {
   return (
     <div className="main"> 
       <Header />
-      <Intro />
-      <About />
-      <Skills />
-      <Projects />
+      <Intro id="intro_section" />
+      <About id="about_section"/>
+      <Skills id="skills_section"/>
+      <Projects id="projects_section"/>
     </div>
   );
 }
