@@ -13,13 +13,17 @@
     flex-wrap: nowrap;
     scroll-snap-type: x mandatory;
 }
+
 .contents > div{ 
     flex: 0 0 100%;
     scroll-snap-align: start;
+}
+.contents::-webkit-scrollbar {
+    display: none;
 }
 .card>img{
     position: relative;
     top:10%;
     left:30%;
-    height:300px;
+    height:200px;
 }

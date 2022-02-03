@@ -9,10 +9,10 @@ function Projects() {
             <img src={image}/>
           </div>
           <div className={styles.card} id="card2">
-            <img src={image}/>
+            fsafaf
           </div>
           <div className={styles.card} id="card3">
-            <img src={image}/>
+            asasas
           </div>
       </div>
     </section>
