@@ -4,6 +4,7 @@
     position: fixed;
     top:2%;
     right:25%;
+    z-index:100;
 }
 #div:after{
     display:block;/*a요소를 블록 요소라고 선언*/

@@ -1,36 +1,47 @@
 .section{
+    position:relative;
     height:100vh;
     background-color: #fec401;
 }
-
+#left{
+    position: absolute;
+    top:30%;
+    right:calc(100vw - 10%);
+    z-index: 90;
+    cursor:pointer;
+}
+#right{
+    position: absolute;
+    top:30%;
+    left:calc(100vw - 10%);
+    z-index: 90;
+    cursor:pointer;
+}
+#leftArrow{
+    width:12rem;
+    transform:rotate(0.5turn)
+}
+#rightArrow{
+    width:12rem;
+}
 .contents{
     display:flex;
     flex-direction: row;
-    position:relative;
-    top: 20%;
-    height:60%;
+    position:absolute;
+    top:20%;
+    left:15%;
+    height:80%;
+    width:70%;
     overflow-x: auto;
     flex-wrap: nowrap;
     scroll-snap-type: x mandatory;
-}
-#left{
-    transform: rotate(0.5turn) scale(0.1);
-    
-}
-#right{
-    transform: scale(0.5);
+    z-index:0;
+    scroll-behavior: smooth;
 }
 
-.contents > div{ 
+.contents > *{ 
     flex: 0 0 100%;
     scroll-snap-align: start;
 }
 .contents::-webkit-scrollbar {
-    display: none;
-}
-.card>img{
-    position: relative;
-    top:10%;
-    left:30%;
-    height:200px;
 }
